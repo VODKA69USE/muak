@@ -1,0 +1,22 @@
+@keyframes shine {
+  0% { color: red; }
+  20% { color: orange; }
+  40% { color: yellow; }
+  60% { color: green; }
+  80% { color: blue; }
+  100% { color: purple; }
+}
+
+#lyrics.shine {
+  animation: shine 2s linear infinite;
+}
+
+.titulo {
+  /* Agrega estilos para el título si es necesario */
+}
+
+#lyrics {
+  font-size: 2em; /* Tamaño de letra ajustable */
+  text-align: center;
+  margin-top: 20px;
+}
